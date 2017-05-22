@@ -1,0 +1,52 @@
+@import url('../base/App.less');
+
+//@mixin img{background:url(../images/img.png) no-repeat; }
+//@mixin password{height:32px;width:32px;background-position: 0 -40px;}
+//@mixin account-filling{height:32px;width:32px;background-position: 0 0;}
+
+.login_title{
+    height: 8%;
+    min-height: 50px;
+    line-height: 50px;
+    width: 100%;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #428bca;
+    .login_logo{
+        float: left;
+        img{vertical-align: middle;}
+    }
+    .login_title_help{
+        float: right;
+        margin-right: 20px;
+    }
+}
+.login_body .login_form{
+    height: 200px;
+    width: 350px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #444;
+    .form_title{
+        height: 40px;
+        line-height: 40px;
+        color: white;
+        text-align: center;
+        .user_icon_body{
+            padding: 6px 12px;
+            font-size: 12px;
+            font-weight: normal;
+            line-height: 1;
+            color: #555;
+            text-align: center;
+            background-color: #eee;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+    }
+}

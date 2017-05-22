@@ -1,0 +1,91 @@
+@import '../../assets/common/Base.scss';
+$border_color:#ccc;
+$padding_left:5px;
+$font_color:#000080;
+$input_width:175px;
+$input_height:28px;
+$btn_height:32px;
+$common_height:32px;
+#addcarsure{
+  .addcar{
+        label{
+          width:38%;
+          text-align:right;
+          height:$input_height;
+          font-weight:normal;
+        }
+        input,select{
+          text-indent:8px;
+          width:60%;
+          height:$input_height;
+          float:right;
+          margin-top:14px;
+          margin-right:5px;
+          outline:none;
+          border:1px solid $border_color;
+          border-radius:4px;
+          }
+    .addtitle{
+       height:$common_height;
+       line-height:$common_height;
+       margin-bottom:8px;
+       border-bottom:1px solid $border_color;
+       p{
+        font-size:$font-size-default;
+       }
+    }
+    .single,.surecode_message,.sureperson_message,.passperson_message,.product_message,.product_car_message{
+      border:1px solid $border_color;
+      border-radius:4px;
+      margin-bottom:15px;
+      .single_mes,.sure_mes,.sureperson_mes,.passperson_mes,.product_mes,.product_car_mes{
+        padding-left:$padding_left;
+        background-color:$border_color;
+        height:$common_height;
+        line-height:$common_height;
+        border-bottom:1px solid $border_color;
+      }
+      .single_first,.sure_first,.sureperson_first,.passperson_first,.product_first,.product_car_first{
+        padding-left:$padding_left;
+        div{
+        float:left;
+        width:25%;
+        }
+        }
+        .passperson_first,.product_car_first{
+            h5{
+              text-indent:4.5%;
+              padding-top:8px;
+              height:24px;
+            .checkput{
+               position:relative;
+               top:-13px;
+               left:-88.5%;
+               width:13px;
+               height:13px;
+               vertical-align:bottom;
+           }
+            }
+
+
+        }
+    }
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+}

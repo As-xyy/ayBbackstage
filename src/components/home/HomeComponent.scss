@@ -1,0 +1,56 @@
+@import '../../assets/common/Base.scss';
+$menu_width:10%;
+
+.index_header{
+    background: #428bca;
+    height:58px;
+    line-height: 58px;
+    border: 1px solid #428bca;
+     
+    .nav_logo{float: left;
+        width: $menu_width;
+        text-align: center;
+     }
+    .index .nav_menu{
+      float: left;
+    }
+    a{color: $nav-menu-color;}
+    .index .nav_menu li{
+      padding: 0 15px;
+      float: left;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    .index .nav_logout{
+      float: right;
+    }
+    .nav_logout{
+        margin-right: 20px;;
+    }
+    .nav_logout sapn{
+        display: block;
+        float: left;
+    }
+    .index_menu{
+        width: 10%;
+        position: fixed;
+        top: 58px;
+        left: 0;
+        bottom: 0;
+        background:$menu-bgcolor ;
+        li{
+            margin-left: 10px;
+            margin-top: 10px;
+            line-height: 23px;
+        }
+    }
+}
+
+#index .main{
+    position: absolute;
+    left: $menu_width;
+    width: 89%;
+    margin: 8px;
+}
+
+
